@@ -31,5 +31,10 @@ Route::get('/products', function () {
 Route::get('/faq', function () {
     return view('faq');
 }); 
-
+Route::get('/cart', function () {
+    return view('cart');
+}); 
+Route::get('/checkout', function () {
+    return view('checkout');
+}); 
 require __DIR__.'/auth.php';

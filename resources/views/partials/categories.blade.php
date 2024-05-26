@@ -1,6 +1,6 @@
 <div class="max-w-screen-lg mx-auto py-10">
             <div>
-                <p class="font-bold text-xl text-gray-500">
+                <p class="font-bold text-xl text-gray-500 dark:text-white">
                     KATEGORI
                 </p>
             </div>

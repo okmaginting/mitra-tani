@@ -37,4 +37,13 @@ Route::get('/cart', function () {
 Route::get('/checkout', function () {
     return view('checkout');
 }); 
+Route::get('/profile', function () {
+    return view('profile');
+}); 
+Route::get('/login-member', function () {
+    return view('member-login');
+});
+Route::get('/daftar-member', function () {
+    return view('member-daftar');
+});
 require __DIR__.'/auth.php';

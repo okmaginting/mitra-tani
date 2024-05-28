@@ -5,7 +5,7 @@
                 </p>
             </div>
             <div class="grid grid-cols-4 grid-rows-2 mb-8 border-2 border-gray-200 rounded-lg shadow-sm dark:border-gray-700 bg-[#ADBC9F]">
-                <figure class="flex flex-col items-center justify-between p-4 text-center border-b-2 border-gray-200 md:rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e-2 dark:border-gray-700">
+                <figure class="flex flex-col items-center justify-between p-4 text-center border-b-2 border-gray-200 md:rounded-t-lg md:rounded-ss-lg md:border-e-2 dark:border-gray-700">
                     <img class="w-16 h-16 mb-4 md:w-20 md:h-20" src="https://via.placeholder.com/150" alt="Product Image">
                     <blockquote class="max-w-2xl mx-auto mt-auto text-gray-500 lg:mb-4 dark:text-gray-400">
                         <h3 class="text-sm font-semibold text-gray-900 dark:text-white md:text-lg">Category 1</h3>

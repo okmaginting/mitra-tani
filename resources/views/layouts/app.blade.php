@@ -19,7 +19,7 @@
     @include('partials.navbar')
 
     <!-- Content -->
-    <main class="mt-24 bg-[#E9FBEC] dark:bg-[#002C08]">
+    <main class="mt-24 bg-[#E9FBEC] dark:bg-[#002C08] h-full">
         @yield('content')
     </main>
 

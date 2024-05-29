@@ -1,4 +1,3 @@
-<!-- resources/views/partials/navbar.blade.php -->
 <header>
    <nav class="bg-[#436850] dark:bg-[#436850] fixed w-full h-25 z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">

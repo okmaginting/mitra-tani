@@ -3,9 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('index');
-});
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -17,33 +15,39 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+// user route
+Route::get('/', function () {
+    return view('pages.index');
+});
 Route::get('/search', function () {
-    return view('search');
+    return view('pages.search');
 }); 
 Route::get('/home', function () {
-    return view('home');
+    return view('pages.home');
 }); 
 
 Route::get('/products', function () {
-    return view('products');
+    return view('pages.products');
 }); 
 
 Route::get('/faq', function () {
-    return view('faq');
+    return view('pages.faq');
 }); 
 Route::get('/cart', function () {
-    return view('cart');
+    return view('pages.cart');
 }); 
 Route::get('/checkout', function () {
-    return view('checkout');
+    return view('pages.checkout');
 }); 
 Route::get('/profile', function () {
-    return view('profile');
+    return view('pages.profile');
 }); 
 Route::get('/login-member', function () {
-    return view('member-login');
+    return view('pages.member-login');
 });
 Route::get('/daftar-member', function () {
-    return view('member-daftar');
+    return view('pages.member-daftar');
 });
+
+
 require __DIR__.'/auth.php';

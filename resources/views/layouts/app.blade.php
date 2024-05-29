@@ -16,7 +16,7 @@
     </script>
 </head>
 <body>
-    @include('partials.navbar')
+    @include('components.navbar')
 
     <!-- Content -->
     <main class="mt-24 bg-[#E9FBEC] dark:bg-[#002C08] h-full">
